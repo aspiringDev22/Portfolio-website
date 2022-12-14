@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Anirudh's Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <!-- <div class="menuItem"> -->
+    <button class="menuBtn" type="button">
+      <!-- <i class="fa-solid fa-bars"></i> -->
+      <i class="fa-solid fa-bars openclose navOpen"></i>
+      <i class="fa-solid fa-x navClose"></i>
+      <!-- <i class="fa-regular fa-xmark-large"></i> -->
+    </button>
+    <!-- </div> -->
+    <div class="nav-nameimg">
+      <p class="dontclick">{!click}</p>
+      <img src="./images/profile-nav.png" class="current" alt="" />
+      <img src="./images/nav-active.png" class="active" alt="" />
+      <h2 class="nav-name">Anirudh <span class="lastname">Sharma</span></h2>
+    </div>
+  </nav>
+  <div class="menu-container">
+    <header>
+      <div class="menu-item">
+        <a href="#home" class="navigate">
+          <h2>HOME</h2>
+        </a>
+        <a href="#projects" class="navigate">
+          <h2>PROJECTS</h2>
+        </a>
+        <a href="#contact" class="navigate">
+          <h2>CONTACT</h2>
+        </a>
+      </div>
+      <div class="socials">
+        <div class="profiles">
+          <a href="https://twitter.com/Anirudhs_22" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/anirudhs22/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:anirudhs00.22@gmail.com" target="_blank" > <i class="fa-solid fa-envelope" ></i></a>
+          <a href="https://github.com/aspiringDev22" target="_blank"> <i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <main>
+    <div class="home-wrapper">
+      <div class="home-section">
+        <div class="introText">
+          <h2 class="intro-header">
+            Hi, I am Anirudh, a
+            <span id="color-change"> Frontend</span> focused web developer.
+            I like building <span class="change"> innovative</span> and
+            multiFunctioning stuff for the web. I like to implement
+            solutions that are responsive and efficient which enhances
+            user's experience.A great problem solver with a big appetite to
+            learn and improve my skills continuosly.
+          </h2>
+        </div>
+        <div class="skills-container">
+          <h2 class="skill-title">My proficiency</h2>
+          <div class="skills">
+            <p>HTML <i class="fa-brands fa-html5"></i></p>
+            <p>CSS <i class="fa-brands fa-css3-alt"></i></p>
+            <!-- <p>
+                  <span class="bootstrap flip active"
+                    >BOOTSTRAP <i class="fa-brands fa-bootstrap"></i
+                  ></span>
+                </p> -->
+            <p>
+              <span class="tailwind flip"> Tailwind CSS </span>
+            </p>
+            <p>
+              <span class="sass flip">
+                SASS <i class="fa-brands fa-sass"></i>
+              </span>
+            </p>
+            <p>
+              <span class="gsap"> GSAP (ANIMATIONS) </span>
+            </p>
+            <p>JAVASCRIPT <i class="fa-brands fa-js"></i></p>
+            <p>REACT <i class="fa-brands fa-react"></i></p>
+            <p>TYPESCRIPT</p>
+            <p>GITHUB <i class="fa-brands fa-github"></i></p>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <section class="projects-container" id="projects">
+      <h1 class="projects-header text">PROJECTS</h1>
+      <div class="projects-wrapper">
+        <div class="project-cards">
+          <div class="project-card">
+            <div class="project-desc">
+              <h2 class="project-name">WETUBE</h2>
+              <h4 class="project-info">
+                WeTube serves as a Youtube Clone which is made using
+                <span class="diff"> Reactjs.</span> By the use of Material UI
+                and Youtube API, WeTube allows users to search their favourite
+                youtuber and watch their videos.
+              </h4>
+              <div class="btns">
+                <button>
+                  <a href="https://github.com/aspiringDev22/WeTube" target="_blank"><i
+                      class="fa-brands fa-github"></i></a>
+                </button>
+                <button>
+                  <a href="https://wetube22.netlify.app/" target="_blank"><i class="fa-sharp fa-solid fa-globe"></i></a>
+                </button>
+              </div>
+            </div>
+            <a href="https://wetube22.netlify.app/" target="_blank">
+              <img src="./images/project_img/wetube.png" alt="" />
+            </a>
+          </div>
+          <div class="project-card">
+            <div class="project-desc">
+              <h2 class="project-name">SneakerShop</h2>
+              <h4 class="project-info">
+                SneakerShop is a dashboard of premium sneakers available in
+                market, made with
+                <span class="diff"> vanilla JavaScript.</span> Responsive site
+                makes a great template for a awesome sneaker store.
+              </h4>
+              <div class="btns">
+                <button>
+                  <a href="https://github.com/aspiringDev22/sneakerShop" target="_blank"><i
+                      class="fa-brands fa-github"></i></a>
+                </button>
+                <button>
+                  <a href="https://sneakershop22.netlify.app/" target="_blank"><i
+                      class="fa-sharp fa-solid fa-globe"></i></a>
+                </button>
+              </div>
+            </div>
+            <a href="https://sneakershop22.netlify.app/" target="_blank">
+              <img src="./images/project_img/sneakers.png" alt="" />
+            </a>
+          </div>
+          <div class="project-card">
+            <div class="project-desc">
+              <h2 class="project-name">NameIt</h2>
+              <h4 class="project-info">
+                NameIt is a single page responsive site made with
+                <span class="diff"> Reactjs.</span> NameIt allows user to
+                search names for their newly started ventures which then
+                guides to the namecheap website for the verification of domain
+                name.
+              </h4>
+              <div class="btns">
+                <button>
+                  <a href="https://github.com/aspiringDev22/NameIt" target="_blank"><i
+                      class="fa-brands fa-github"></i></a>
+                </button>
+                <button>
+                  <a href="https://nameit22.netlify.app/" target="_blank"><i class="fa-sharp fa-solid fa-globe"></i></a>
+                </button>
+              </div>
+            </div>
+            <a href="https://nameit22.netlify.app/" target="_blank">
+              <img src="./images/project_img/nameit.png" alt="" />
+            </a>
+          </div>
+          <div class="project-card">
+            <div class="project-desc">
+              <h2 class="project-name">ColorGenerator</h2>
+              <h4 class="project-info">
+                ColorGenerator is a single page responsive site made with
+                <span class="diff"> Reactjs.</span> Frontend devs suffers in selecting and choosing colors with similar
+                shades. This site solves their problem.
+              </h4>
+              <div class="btns">
+                <button>
+                  <a href="https://github.com/aspiringDev22/color-generator" target="_blank"><i
+                      class="fa-brands fa-github"></i></a>
+                </button>
+                <button>
+                  <a href="https://color-generatorapp22.netlify.app/" target="_blank"><i
+                      class="fa-sharp fa-solid fa-globe"></i></a>
+                </button>
+              </div>
+            </div>
+            <a href="https://color-generatorapp22.netlify.app/" target="_blank">
+              <img src="./images/project_img/colorgen.png" alt="" />
+            </a>
+          </div>
+        </div>
+    </section>
+    <section class="contact-container" id="contact">
+      <h1 class="contactHead">Contact Me</h1>
+      <div class="contact">
+
+        <div class="container">
+
+          <h1 class="contactdesc">
+            Got a question or proposal, or just want to say hello? Go ahead.
+          </h1>
+          <form
+          action="https://formspree.io/f/xxxxxx"
+          method="POST"
+        >
+            <div class="form-control">
+              <input type="text" required name="name" autocomplete="off" id="name"/>
+              <label>Name</label>
+            </div>
+            <div class="form-control">
+              <input type="email" required autocomplete="off" name="email" id="email"/>
+              <label>Email</label>
+            </div>
+
+            <div class="form-control">
+              <input type="text" required name="message" autocomplete="off" id="message"/>
+              <label>Message</label>
+            </div>
+
+            <button class="formbtn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <h2>&copy;CopyRight 2022 &nbsp; Anirudh Sharma</h2>
+  </footer>
+  <script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+    integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 
+ 
+
+  <script src="./js/animate.js"></script>
+</body>
+
+</html>
